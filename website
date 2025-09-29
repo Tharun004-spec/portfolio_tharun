@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio Website | Tharun karthikeyan</title>
+     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Tharun.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+         <a href="#" class="active">Home</a>
+         <a href="#">about</a>
+         <a href="#">skills</a>
+         <a href="#">contact</a>
+                 
+        </nav>
+    </header>
+
+    <section class="home active">
+        <div class="home-details">
+            <h1>Tharun karthikeyan</h1>
+            <h2>I'm 
+                <span style="--i:3;" data-text="EEE student">EEE student</span>
+                <span style="--i:2;" data-text="Front end developer">Front end developer</span>
+                <span style="--i:1;" data-text="UI/UX Designer">UI/UX Designer</span>
+            </h2>
+            <p>Hello! i am a final-year EEE student with a strong passion for building complete digital solutions. While my primary interest is in crafting seamless user experiences through front-end development, I am also expanding my skills across the full stack. I leverage my analytical engineering mindset to deconstruct complex problems and build efficient, user-centric applications. I am currently seeking opportunities in development or tech consulting where I can apply my skills to create impactful solutions.
+
+</p>
+            <div class="btn-sci">
+                <a href="Tharun resume.pdf" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://www.instagram.com/tk_tharun004?igsh=NTJobXBkYWcybTE2&utm_source=qr "><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tharun-karthikeyan-29b734250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://discord.gg/mftBkdXcep"><i class="bx bxl-discord-alt"></i></a>
+                    <a href="https://chat.whatsapp.com/LZ92GQtM4XELq86laU7A1b"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="IMG_1718 2.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <h2 class="heading">About <span>Me!</span></h2>
+             <div class="services-continer">
+                    <div class="servicesbox">
+                        <p class="desc">Personal Details  </p>
+                         <div class="home-img">
+                             <div class="img-box">
+                                    <div class="img-item">
+                                         <img src="IMG_1718 2.jpg">
+                                        </div>
+                                    </div>
+                                 </div>
+                         <div class="servicesbox">
+                                    <p>Name : <span>Tharun karthikeyan</span></p>
+                            </div>
+                             <div class="servicesbox">
+                               <p>Gender : <span>Male</span></p>
+                            </div>
+                             <div class="servicesbox">
+                                <p>Age : <span>21</span></p>
+                            </div>
+                             <div class="servicesbox">
+                               <p>Nationality : <span>Indian</span></p>
+                            </div>
+                             <div class="servicesbox">
+                                <p>City : <span>Chennai</span></p>
+                            </div>
+                             <div class="servicesbox">
+                                    <p><i class='bx bx-phone'></i><span>(+91) 6385640576</span></p>
+                            </div>
+                            <div class="servicesbox">
+                                    <p><i class="bx bxs-envelope"></i><span>tharunkarthikeyantk@gmail.com</span></p>
+                            </div>
+                            <div class="servicesbox">
+                                    <p>Languages Known : <span>Tamil,English,Hindi</span></p>
+                            </div>
+                                <h2 class="heading"> My <span>Area of interest </span> </h2>
+
+                             <div class="servicesbox">
+                                <div class="icon">
+                                    <i class="bx bx-code"></i>
+                                    <a href="#"><i class='bx  bx-arrow-back'  ></i> </a>
+                             <div>
+                             <h3> Front End Web Development</h3>
+                             <p>I build clean, responsive, and user-friendly websites. Using modern front-end technologies, I translate designs into high-quality code that works seamlessly across all devices. My goal is to create digital experiences that are not just visually appealing but also accessible and performant.</p>
+                                        </div>
+                                 </div>
+                            </div>
+
+                             <div class="servicesbox">
+                                 <div class="icon">
+                                    <i class="bx bx-paint"></i>
+                                    <a href="#"><i class='bx  bx-arrow-back'  ></i> </a>
+                                <div>
+                                <h3>UI/UX Desgin</h3>
+                                <p>I approach every project with a user-first mindset. For me, UI/UX is the crucial bridge between a great idea and a successful product. I focus on clarity, simplicity, and creating a seamless journey for the user in all my development work, ensuring the final product feels natural and intuitive.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div class="resume-continer">
+            <div class="resumebox">
+                <h2>Why Hire Me ?</h2>
+                <p class="desc">Here is my skills and education ,Though i am not pro in all the languages and skills i have mentioned but i try everyday to be better than the previous day.</p>
+                <button class="resume-btn active ">Education</button>
+                <button class="resume-btn">programming Languages</button>
+                <button class="resume-btn">currently Learning</button>
+            
+            
+                 <div class="resume-detail education active">
+                <h2 class="heading">My <span>Education</span></h2>
+                <p class="desc">Here is my schooling and graduation details.</p>
+                <br> <br>
+                <div class="resumelist">
+                    <div class="resumeitems"><p class="year">2020</p>
+                    <h3>Class X</h3>
+                    <p class="Institue">Syed Ammal Boys Matric Higher Secondary School</p>
+                    </div>
+             
+
+                <div class="resumelist">
+                    <div class="resumeitems"><p class="year">2021 - 2022</p>
+                    <h3>Class Xll</h3>
+                    <p class="Institue">Syed Ammal Boys Matric Higher Secondary School</p>
+                    </div>
+                </div>
+
+                <div class="resumelist">
+                    <div class="resumeitems"><p class="year">2022-2023</p>
+                    <h3>BE EEE</h3>
+                    <p class="Institue">St.Josephs Institue of Technology</p>
+                    </div>
+                </div>
+
+                <div class="resumelist">
+                    <div class="resumeitems"><p class="year">2023-2026</p>
+                    <h3>BE EEE</h3>
+                    <p class="Institue">SSN College of Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+   
+       
+
+    
+<div class="resume-detail programming languages">
+    <h2 class="heading">programming <span>Languages Known</span></h2>
+     <p class="desc">I have already mentioned that i am not perfect in all the languages but i try to make progress every day </p>
+
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-html5'></i>
+          <p><span>HTML 5</span></p>
+        </div>
+    </div>
+
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-css3'></i>
+          <p><span>CSS 3</span></p>
+        </div>
+    </div>
+
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-bootstrap'></i>
+          <p><span>Bootstrap</span></p>
+        </div>
+    </div>
+</div>
+
+ <div class="resume-detail currently Learning">
+    <h2 class="heading">currently <span>Learning</span></h2>
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-javascript'></i>
+          <p><span>Java Script</span></p>
+        </div>
+    </div>
+
+
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-java'></i>
+          <p><span>Java</span></p>
+        </div>
+    </div>
+
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-react'></i>
+          <p><span>React</span></p>
+        </div>
+    </div>
+
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxs-mysql'></i>
+          <p><span>My SQL</span></p>
+        </div>
+    </div>   
+    
+    <div class="resumelist">
+        <div class="resumeitems">
+         <i class='bx bxl-servicenow'></i>
+          <p><span>Service Now</span></p>
+        </div>
+    </div>
+     </div>
+ </div>
+ </div>   
+ </div> 
+
+    </section>
+
+   
+    <section class="contact">
+        <div class="contact-continer">
+            <div class="contact-box">
+                <h2>Lets Work Together</h2>
+                <div class="contactdetails">
+                    <i class="bx bxs-phone"></i>
+                    <div class="detail">
+                        <p>phone</p>
+                        <p>(+91) 6385640576</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactdetails">
+                    <i class="bx bxs-envelope"></i>
+                    <div class="detail">
+                        <p><E-mail>tharunkarthikeyantk@gmail.com</E-mail></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address " required>
+                        <input type="number" placeholder="Phone Number " required>
+                        <input type="text" placeholder="Email Subject " required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
